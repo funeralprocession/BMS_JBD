@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<img src="plot.svg"><br>
+<p class="on">&nbsp&nbspON</p>
+<form action="BMS.cgi" method="post">
+<button class="btn" type="submit" name="period" value="1">1hour</button>
+<button class="btn" type="submit" name="period" value="3">3hours</button>
+<button class="btn" type="submit" name="period" value="6">6hours</button>
+<button  class="btn" type="submit" name="period" value="12">12hours</button>
+<button  class="btn" type="submit" name="period" value="24">1day</button>
+<button  class="btn" type="submit" name="period" value="48">2days</button>
+<button  class="btn" type="submit" name="period" value="168">1week</button>
+<button  class="btn" type="submit" name="period" value="744">1month</button>
+</form>
+<br><br>
+<button onclick="location.href='stop_charging.cgi'" class="stop_charging">stop_charging</button>
+<br><br>
+<button onclick="location.href='release.cgi'" class="release">release MOSFET</button>
+<br><br><br><br><br><br>
+<button onclick="location.href='stop_discharging.cgi'" class="stop_discharging">stop_discharging</button>
+</body>
+</html>
+
+

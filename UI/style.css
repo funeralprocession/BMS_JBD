@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+body {
+background-color: #99cc00;
+}
+
+button.stop_charging {
+background-color: yellow;
+font-size: 32px;
+}
+
+button.stop_discharging {
+color: white;
+background-color: red;
+font-size: 32px;
+
+}
+
+button.release {
+color: white;
+background-color: blue;
+font-size: 32px;
+
+}
+
+
+p.on {
+font-family: sans-serif;
+font-size: 32px;
+color: blue;
+font-weight: bold;
+} 
+
+p.charging {
+font-family: sans-serif;
+font-size: 32px;
+color: yellow;
+font-weight: bold;
+
+} 
+
+p.off {
+font-family: sans-serif;
+font-size: 32px;
+color: red;
+font-weight: bold;
+
+} 
+
+button.btn{
+    display: block;
+    width: 100px;
+    padding: 0.5em;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0.5em auto;
+    line-height: 1.5;
+    display: inline-block;
+border-radius:24px;
+font-size: 24px;
+}
